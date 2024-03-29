@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: url("images/nn.jpg");
+  background-image: url("../images/nn.jpg");
   background-position: 50% 50%;
   min-height: 658px;
 }
@@ -58,7 +58,7 @@
 
 .u-section-1 .u-image-1 {
   min-height: 658px;
-  background-image: url("images/holdi1.png");
+  background-image: url("../images/holdi1.png");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
@@ -396,7 +396,7 @@
     margin-right: 26px;
   }
 } .u-section-3 {
-  background-image: url("images/nn.jpg");
+  background-image: url("../images/nn.jpg");
   background-position: 50% 50%;
   min-height: 551px;
 }
@@ -872,7 +872,7 @@
 
 .u-section-6 .u-image-1 {
   min-height: 655px;
-  background-image: url("images/holdi2.png");
+  background-image: url("../images/holdi2.png");
   background-position: 50% 50%;
 }
 
