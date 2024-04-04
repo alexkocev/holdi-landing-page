@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: none;
+  background-image: linear-gradient(white, #d5ceca);
 }
 
 .u-section-1 .u-sheet-1 {
@@ -14,7 +14,6 @@
 
 .u-section-1 .u-form-1 {
   height: 461px;
-  background-image: none;
   --radius: 6px;
   margin: -458px 0 60px 630px;
 }
