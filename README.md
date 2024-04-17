@@ -18,11 +18,13 @@ Visit the URL [https://alexkocev.github.io/holdi_landing_page/](https://alexkoce
 **How to convert from Nice Page to raw code hosted in Github?**: 
  - Create a new folder Contact as: Contact/index.html & Contact/Contact.css
 
- - Delete root/index.html
+ - Delete *root/index.html*
 
- - Replace Accueil.html and Accueil.cdd by index.html & index.css as they are the homepage
+ - Replace *Accueil.html* and *Accueil.cdd* by *index.html* & *index.css* as this is the homepage
 
- - Remove "<section class="u-backlink u-clearfix u-grey-80">...</section>" in Contact/index.html & index.html
+ - Remove in *Contact/index.html* & *index.html*
+		 - `<section class="u-backlink u-clearfix u-grey-80">...</section>`
+
     
 - Update path in Contact/index.html with:
         - `href="../">Accueil</a>**`
@@ -42,8 +44,7 @@ Visit the URL [https://alexkocev.github.io/holdi_landing_page/](https://alexkoce
 - Update path in index.css with: 
         - `src="./images/holdi5.png"`
 
-- Formspree in Contact page : 
-        Replace 
+- We use Formspree in Contact page. Replace:
 ```
 <form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-spacing-19 u-form-vertical u-inner-form" source="email" name="form" style="padding: 19px;">
     <div class="u-form-email u-form-group">
@@ -69,7 +70,7 @@ Visit the URL [https://alexkocev.github.io/holdi_landing_page/](https://alexkoce
 ```
 with
 ```
-<form action="https://formspree.io/f/mbjnzkzl" method="POST" class="u-clearfix u-form-spacing-19 u-form-vertical u-inner-form" style="padding: 19px;">
+<form action="https://formspree.io/f/..." method="POST" class="u-clearfix u-form-spacing-19 u-form-vertical u-inner-form" style="padding: 19px;">
   <div class="u-form-group">
     <label for="first-name" class="u-custom-font u-heading-font u-label">Prénom</label>
     <input type="text" id="first-name" name="first_name" placeholder="Entrez votre prénom" class="u-border-none u-custom-color-4 u-custom-font u-heading-font u-input u-input-rectangle u-radius-10" required>
@@ -92,16 +93,16 @@ with
 ```
     
 
- - Google Analytics to add in the headers for index.html and Contact/index.hmtl
+ - Google Analytics to add in the headers for *index.html* and *Contact/index.hmtl*
     
 ```
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LVEE8NXLEC"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-..."></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-LVEE8NXLEC');
+  gtag('config', 'G-...');
 </script>
 ```
